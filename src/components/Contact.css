@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin:7rem;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    border: 5px solid black;
+}

@@ -4,7 +4,7 @@ import Cake from '../Images/Cake.png';
 
 export const Projects = ( ) => {
   return (
-      <div  className="pt5 pb7 mt7 bg-black">
+      <div  className="pt5 pb7 mt7 bg-black" id='projects'>
         <h1 className='black ma5 tc garamond b tracked br3 bg-white'>Projects</h1>
             <div className=' flex flex-wrap tc ttu'>
                 <article class="br2 ba white b-black mv4 w-100 w-50-m w-25-l mw6 center grow pa1 bg-black"> {/* change mw6 */}

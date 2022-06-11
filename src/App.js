@@ -5,14 +5,16 @@ import { Contact } from './pages/Contact';
 import { Home } from './pages/Home';
 import { Projects } from './pages/Projects';
 import { Footer } from './pages/Footer';
+import { ScrollToTop } from './components/ScrollToTop';
 
 function App() {
   return (
     <div className="App">
+        <ScrollToTop/>
         <NavBar/>
-        <Home/>
-        <Projects/>
-        <Contact/>
+        <Home />
+        <Projects />
+        <Contact />
         <Footer/>
     </div>
   );

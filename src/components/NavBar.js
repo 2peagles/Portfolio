@@ -1,22 +1,19 @@
-import React from 'react'
-// import Scroll from 'react-scroll';
-// import scrollToElement from 'scroll-to-element';
+import  React from 'react';
+import '../App.css';
+import { ScrollToTop } from './ScrollToTop';
+import {HashLink as Link} from 'react-router-hash-link';
 
-// scrollToElement('.home', {
-//   offset: 0,
-//   ease: 'out-bounce',
-//   duration: 1500
-// });
 export const NavBar = ( ) => {
   return (
-    <div className='bg-black dib flex w-100 justify-between' id="NavBar">
-        <nav className='tracked ttu fw6 f6 '>
-            <ol className='link pa3 b tr '>
-                <li className='dib mr2 '><a href='/' className='link white hover-blue ph2 pv2 '>Home</a></li>
-                <li className='dib mr2'><a href='/Projects' className='link white hover-blue ph2 pv2 '>Projects</a></li>
-                <li className='dib mr2'><a href='/Contact' className='link black br-pill ph3 pv2 bg-white hover-blue'>Contact</a></li>
+    <div className='bg-black dib flex w-100 justify-between fixed'>
+      <ScrollToTop/>
+        <nav className='tracked ttu fw6 f6 link pa3 b '>
+            <ol className=''>
+              <li className='dib mr2 '><Link smooth to='#home' className='link white hover-blue ph2 pv2 pointer active-ba-white'>Home</Link></li>
+              <li className='dib mr2 '><Link  smooth to='#projects' className='link white hover-blue ph2 pv2  pointer'>Projects</Link></li>
+              <li className='dib mr2 ' ><Link smooth to='#contact'  className='link white hover-blue ph2 pv2 pointer'>Contact</Link></li>
             </ol>
         </nav>
     </div>
-  )
+  );
 }

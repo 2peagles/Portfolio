@@ -20,6 +20,7 @@
       REACT-SCROLL SCROLL-TO-ELEMENT, USE REF
       BUT then I learned about HashLink I knew  about BrowserRouter , and the term has was familiar but I just didn't think to use it
       I love HashLink it's so simple easy to understand and works! I ran into a problem I didn't have my index.js wrapped in the BrowserRouter
+      https://github.com/2peagles/Portfolio/issues/1#issue-1268143359
       so a blank page appeared 'NOOOOOOOOO' , I was so confused what had I don't wrong I looked for answers and found none but then I looked at 
       the console and it said something about the Route and I was confused but I remember when I was going through BrowserRouter I had the same problem
 This project took me a day in some change to complete just because I'm not very good with the UI so I went for a simple black and white design with the faints hint of blue/pink

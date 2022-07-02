@@ -7,7 +7,7 @@ import Resume from '../Images/Resume  (1).pdf';
 export const Footer = ( ) => {
   return (
     <div className='bg-black' id="footer">
-        <footer class="pv4 ph3 ph5-ns tc">
+        <footer class="pv4 ph2 ph2-ns tc">
             <a class="link dim black dib h2 w2 br-100 mr3 pa2 bg-near-white ba b--black-10" href="https://github.com/2peagles" target="_blank"  rel="noreferrer" >
                 <FaGithub/>
             </a>

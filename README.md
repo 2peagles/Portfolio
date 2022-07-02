@@ -30,3 +30,5 @@ This project took me a day in some change to complete just because I'm not very 
 I REALLY ENJOYED THIS I'M SURE IT'S NOT SUPER GOOD LOOKING BUT IT WAS FUN TO BUILD RAN INTO SOME CHALLENGES BUT I FIGURED EVERYTHING OUT 
 
 I CAN'T WAIT TO LEARN MORE THING AND ADDED THEM AS I FEEL : )
+
+I came back to this site after to add something to the site and I realized just how bad this is, it's not responsive, I didn't check! So I will be coming back to this to make that work.
